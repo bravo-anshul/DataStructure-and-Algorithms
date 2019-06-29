@@ -16,9 +16,7 @@ public class kruskal{
 			else
 				return b;
 		}
-
 	}
-	
 
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
@@ -49,12 +47,6 @@ public class kruskal{
                     edge[j] = edge[j+1];
                     edge[j+1] = temp;
                 }
-		/*System.out.println("Edges weight :");
-		for(int i=0;i<m;i++){
-			System.out.print(edge[i].weight);
-		}*/
-
-
 
 		int totalWeight=0;
 		int count=0;
@@ -82,16 +74,8 @@ public class kruskal{
 				//visited[u] = true;
 				count+=1;
 			}	
-			
-
-
 		}
 		
 		System.out.println(totalWeight);
-
-
-
 	}
-	
-
 }		

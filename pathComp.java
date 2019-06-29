@@ -53,8 +53,6 @@ public class pathComp{
 			System.out.print(edge[i].weight);
 		}*/
 
-
-
 		int totalWeight=0;
 		int count=0;
 		
@@ -90,16 +88,9 @@ public class pathComp{
 				//visited[u] = true;
 				count+=1;
 			}	
-			
-
-
 		}
+
 		System.out.println("MST of the given graph is :");
 		System.out.println(totalWeight);
-
-
-
 	}
-	
-
 }		

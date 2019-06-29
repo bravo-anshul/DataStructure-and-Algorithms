@@ -48,15 +48,6 @@ public class kmp{
 			}
 		}
 
-
-
-		
-
-		/*System.out.println("");
-		for(int i : lps){
-			System.out.print(i+",");
-		}*/
-
 	}	
 
 }
